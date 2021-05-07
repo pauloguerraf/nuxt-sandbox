@@ -1,0 +1,15 @@
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.outter-cursor {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 11000;
+  border: 2px solid #fce169;
+}
